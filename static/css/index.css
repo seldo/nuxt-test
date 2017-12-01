@@ -25,6 +25,11 @@ html {
   margin-left: 1em;
   margin-right: 1em;
 }
+.container p, .container ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .navigation {
   margin-bottom: 1em;
 }
