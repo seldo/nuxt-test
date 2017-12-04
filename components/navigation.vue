@@ -5,7 +5,8 @@
       <ul class="navigation">
         <li v-if="prev"><a :href="'/' + prev.slug" class="link-back">{{prev.name}}</a></li>
         <li>{{current.name}}</li>
-        <li v-if="next"><a :href="'/' + prev.slug" class="link-forward">{{next.name}}</a></li>
+        <li v-if="next"><a :href="'/' + next.slug" class="link-forward">{{next.name}}</a></li>
+        <li v-else></li>
       </ul>
     </div>
   </div>

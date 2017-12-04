@@ -18,7 +18,10 @@
       <p>Kwyn found my rants entertaining, and had just graduated from Hack Reactor. She observed that while all of these things were well known to people who'd been in the industry for years, graduates of boot camps like Hack Reactor had never heard these things. They knew how to use the latest tech, but they had not been around when very old arguments had happened, so they often didn't have background. She suggested I come to Hack Reactor and give a talk about all those sorts of things. I spontaneously agreed, and decided to call it Shit Everybody Knows.</p>
       <p>A few weeks later the day of the talk rolled around and, predictably, I hadn't really thought about what I was going to say. So, panicked, I just began throwing anything I could think of into a slide deck. I asked people on Twitter what sort of topics junior devs didn't know about, and that they got annoyed when they had to re-explain, and that was a rich vein of material. I also threw in my personal bugbears, like flat sites and various databases.</p>
       <p>With no time to practice, I had no idea how long this talk was going to be. I showed up at Hack Reactor and just launched into it, spicing it liberally with anecdotes and profanity. Two hours later I finished to a round of applause, and the talk was born.</p>
-      <p>Hack Reactor invited me back to give the talk again and again -- ten times so far, and I hope they continue to do so. I've also given the talk to </p>
+      <p>Hack Reactor invited me back to give the talk again and again -- ten times so far, and I hope they continue to do so. I've also given the talk to a bunch of other bootcamps inside and outside of San Francisco. Each time I update and refine the talk, but keeping it to its already-hefty length of 2 hours has meant throwing out a lot of great material. This website is where all that extra content goes, as well as having a much greater reach than giving the talk a few hundred people at a time.</p>
+    </section>
+    <section>
+      <p><a href="/2-dunning-kruger" class="link-forward">Next topic: Dunning-Kruger</a></p>
     </section>
   </div>
 </template>
