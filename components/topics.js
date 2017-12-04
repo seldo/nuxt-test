@@ -11,8 +11,12 @@ let topics = [
     slug: '2-dunning-kruger'
   },
   {
+    name: 'Basic programming skills',
+    slug: '3-basic-skills'
+  },
+  {
     name: 'HTML & CSS',
-    slug: '3-html-css'
+    slug: '4-html-css'
   }
 ]
 export default topics
