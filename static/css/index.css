@@ -21,13 +21,13 @@ a {
 .link-back:before {
   content: '⬅️';
   position: relative;
-  top: 2px;
+  top: 1px;
   margin-right: 0.5em;
 }
 .link-forward:after {
   content: '➡️';
   position: relative;
-  top: 2px;
+  top: 1px;
   margin-left: 0.5em;
 }
 .link-deeper:before {
@@ -49,6 +49,9 @@ a {
 .container p, .container ul {
   margin-top: 1em;
   margin-bottom: 1em;
+}
+.diagram img {
+  width: 100%;
 }
 /* bigger screens */
 @media (min-width:600px) {
