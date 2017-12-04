@@ -1,11 +1,8 @@
 <template>
   <ul class="navigation">
-    <li v-for="section in sections">
-      <a
-        :href="section.slug"
-        :class="[$route.path == section.slug ? 'current' : 'woo']"
-      >{{ section.name }}</a>
-    </li>
+    <li v-if="prev"><a :href="'/' + prev.slug" class="link-back">{{prev.name}}</a></li>
+    <li>{{current.name}}</li>
+    <li v-if="next"><a :href="'/' + prev.slug" class="link-forward">{{next.name}}</a></li>
   </ul>
 </template>
 
@@ -13,18 +10,27 @@
 .current {
   color: red
 }
+.navigation {
+  margin-bottom: 1em;
+}
 </style>
 
 <script>
+import topics from './topics'
+
 export default {
   data () {
+    let topic = this.$route.path.split('/')[1]
+    let topicIndex = topics.findIndex((element) => {
+      return element.slug === topic
+    })
+    let current = topics[topicIndex]
+    let prev = (topicIndex - 1 >= 0) ? topics[topicIndex - 1] : null
+    let next = (topicIndex + 1 < topics.length) ? topics[topicIndex + 1] : null
     return {
-      bob: 'yes',
-      sections: [
-        { name: 'Home', slug: '/' },
-        { name: 'Intro', slug: '/1-intro' },
-        { name: 'Dunning-Kruger', slug: '/2-dunning-kruger' }
-      ]
+      current,
+      prev,
+      next
     }
   }
 }
