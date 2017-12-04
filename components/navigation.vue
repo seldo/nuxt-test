@@ -1,17 +1,41 @@
 <template>
-  <ul class="navigation">
-    <li v-if="prev"><a :href="'/' + prev.slug" class="link-back">{{prev.name}}</a></li>
-    <li>{{current.name}}</li>
-    <li v-if="next"><a :href="'/' + prev.slug" class="link-forward">{{next.name}}</a></li>
-  </ul>
+  <div>
+    <div id="spacer"></div>
+    <div class="navigation-flex">
+      <ul class="navigation">
+        <li v-if="prev"><a :href="'/' + prev.slug" class="link-back">{{prev.name}}</a></li>
+        <li>{{current.name}}</li>
+        <li v-if="next"><a :href="'/' + prev.slug" class="link-forward">{{next.name}}</a></li>
+      </ul>
+    </div>
+  </div>
 </template>
 
 <style>
-.current {
-  color: red
+#spacer {
+  width: 100%;
+  height: 1.5em;
+}
+.navigation-flex {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
 }
 .navigation {
-  margin-bottom: 1em;
+  width: 90%;
+}
+.navigation {
+  max-width: 30em;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation li {
+  list-style-type: none;
 }
 </style>
 

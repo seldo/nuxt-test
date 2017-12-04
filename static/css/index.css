@@ -18,6 +18,18 @@ a {
   text-decoration: none;
 }
 /* decorations */
+.link-back:before {
+  content: '⬅️';
+  position: relative;
+  top: 2px;
+  margin-right: 0.5em;
+}
+.link-forward:after {
+  content: '➡️';
+  position: relative;
+  top: 2px;
+  margin-left: 0.5em;
+}
 .link-deeper:before {
   content: '⬇️ ';
 }
