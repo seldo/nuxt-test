@@ -31,9 +31,25 @@
     <p>All Unix operating systems have a bunch of standard utilities that are (mostly) the same regardless of the flavor, and they are very powerful indeed. <kbd>grep</kbd>, <kbd>find</kbd>, <kbd>awk</kbd>, <kbd>sed</kbd> and other fundamental Unix utilities will save you unreasonably huge amounts of time if you take the time to learn them and use them judiciously.</p>
 
     <h2>4: Your text editor of choice</h2>
-    <p></p>
-
-
+    <p>Another thing to be absolutely great at is your text editor. The world is full of people who will tell you that you should use vim or emacs and that anybody who doesn't use one of those two editors is not a Real Programmer™ and I am here to dispel that advice as being weapons-grade bullshit.</p>
+    <p>The fact of the matter is <b>it doesn't matter what editor you use, as long as you get really good at using it</b>. And the proof of this principle is the fact that many professional programmers are incredibly productive using vim, a piece of software that was garbage when it was released 26 years ago and is still garbage today. Vim fans are huge proponents of the idea that learning keyboard shortcuts is much faster than using the mouse, when in fact decades of research show that <a href="https://danluu.com/keyboard-v-mouse/">using a mouse is consistently faster than using a keyboard</a>. For the record, emacs is also garbage.</p>
+    <p>You know why people who use Vim are so productive with it? Because they have been using it for 26 years. If you consistently use the same piece of software for 26 years, you will be amazingly good and fast at using it, and it doesn't matter that it's a piece of shit that <a href="https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/">you have to Google how to quit</a>.</p>
+    <p>So: pick an editor. It does not matter even a little bit which one. Then use it consistently and constantly. Don't switch editors every week, don't constantly rearrange UI and remap shortcuts. Just find one you like and stick with it forever, so that using it is like breathing.</p>
+    
+    <h2>5: Version control</h2>
+    <p>Another foundational skill that you should become fluent with is version control, and by that I mean <a href="https://try.github.io/">git</a>. There are lots of types of version control management software, but luckily that doesn't matter because everybody uses git.</p>
+    <p>Git is essential to how software is put together these days. It's how teams of more than one person collaborate on code, it's how you find and correct mistakes, it's often central to how you deploy the software too.</p>
+    <p>So get really, really good at git. Go beyond <kbd>clone</kbd> and <kbd>checkout</kbd>. Learn how to branch, and merge, and squash, and rebase. Get so good at it that it's effortless, because you are going to be doing it hundreds of times a day, and those seconds add up quickly.</p>
+    
+    <h2>6: Communication</h2>
+    <h3>Your job is 50% solving the problem, 50% communicating about the problem.</h3>
+    <p>An unexamined belief that a lot of developers have is that the hard part of being a programmer, in fact the only important part, is being able to solve complicated technical problems. This is a disastrous misunderstanding of the job.</p>
+    <p>Generously 50% of your job is solving the problem; the other 50% is figuring out what the problem was in the first place, and letting people know how you solved it. Without fluent, accurate communication with your bosses, reports, clients and co-workers, you may find yourself solving technical problems, but they will not be the right problems, or the solutions may be inappropriate, and all your technical expertise will be wasted.</p>
+    <p>Anyone, given enough time, can program a solution to a given technical problem. But to be a good working programmer, you need to have a view of the wider picture in the team and the company in which you operate. All technical problems have technical constraints -- disk, memory, processor -- but there are also organizational constraints, which if ignored will make your solutions worthless. How much time do you have to solve the problem? How expensive can the solution be? Who will be using it? What other systems are likely to be affected by my work? Being unable to answer these questions is the hallmark of a junior developer.</p>
+    
+    <p>Once you've mastered all of the above, you can get on to learning actual web development.</p>
+    
+    <p><a href="/4-html-css" class="link-forward">Next topic: HTML & CSS</a></p>
   </div>
 </template>
 
