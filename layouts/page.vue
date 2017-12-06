@@ -1,7 +1,8 @@
 <template>
   <div class="flex-container"><div class="container">
-    <Navigation />
-    <nuxt/>
+    <Navigation>
+      <nuxt/>
+    </Navigation>
   </div></div>
 </template>
 

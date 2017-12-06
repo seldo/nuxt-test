@@ -30,7 +30,7 @@ a {
   top: 1px;
   margin-left: 0.5em;
 }
-.link-deeper:before {
+.link-down:before {
   content: '⬇️ ';
 }
 /* small screens are the default */

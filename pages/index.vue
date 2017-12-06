@@ -4,7 +4,7 @@
       <h1>Stuff Everybody Knows About Web Development</h1>
       <h2>(except you)</h2>
       <h3>The companion website to the Stuff Everybody Knows talk by <a href="https://twitter.com/seldo">@seldo</a>.</h3>
-      <p><a id="start" class="link-deeper" href="/1-intro">Start reading</a></p>
+      <p><a id="start" class="link-down" href="/1-intro">Start reading</a></p>
       <div class="instructions">
         <h4>Instructions</h4>
         <ul>
