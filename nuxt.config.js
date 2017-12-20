@@ -25,6 +25,7 @@ module.exports = {
     ** Run ESLint on save
     */
     extend (config, ctx) {
+      /* HOLY CHRIST THIS IS ANNOYING
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
@@ -33,6 +34,7 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+      */
     }
   }
 }
