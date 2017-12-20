@@ -1,4 +1,4 @@
-let topics = [
+export default [
   {
     name: 'Home',
     slug: '' },
@@ -33,4 +33,3 @@ let topics = [
     slug: '4-html-css'
   }
 ]
-export default topics
